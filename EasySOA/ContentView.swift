@@ -15,7 +15,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack (spacing: 50) {
-            let background = model.isLoading ? Color.red : Color.black
+            let background = model.isLoading ? Color.gray : Color.black
             UserDetails(user: $model.user)
                 .foregroundColor(background)
             
@@ -44,13 +44,15 @@ struct ContentView: View {
         } else {
             UserInfoManager.shared.userService = RussianUserService()
         }
-        Task {
-            try? await UserInfoManager.shared.load()
-        }
+        load()
     }
     
     func generateError() {
         UserInfoManager.shared.userService = ErrorService()
+        load()
+    }
+    
+    func load() {
         Task {
             do {
                 try await UserInfoManager.shared.load()
