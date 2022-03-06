@@ -14,6 +14,15 @@
 		5AB3D61A27D3EB22009E3C7B /* EasySOATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D61927D3EB22009E3C7B /* EasySOATests.swift */; };
 		5AB3D62427D3EB22009E3C7B /* EasySOAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D62327D3EB22009E3C7B /* EasySOAUITests.swift */; };
 		5AB3D62627D3EB22009E3C7B /* EasySOAUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D62527D3EB22009E3C7B /* EasySOAUITestsLaunchTests.swift */; };
+		5AB3D63627D3ECE2009E3C7B /* AGMockServer in Frameworks */ = {isa = PBXBuildFile; productRef = 5AB3D63527D3ECE2009E3C7B /* AGMockServer */; };
+		5AB3D63A27D3ED9C009E3C7B /* EnglishVersionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D63927D3ED9C009E3C7B /* EnglishVersionHandler.swift */; };
+		5AB3D63C27D3EDF3009E3C7B /* RussianVersionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D63B27D3EDF3009E3C7B /* RussianVersionHandler.swift */; };
+		5AB3D63F27D3EE4F009E3C7B /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D63E27D3EE4F009E3C7B /* UserInfo.swift */; };
+		5AB3D64127D3F2BD009E3C7B /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D64027D3F2BD009E3C7B /* NetworkService.swift */; };
+		5AB3D64327D3F6BF009E3C7B /* UserInfoServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D64227D3F6BF009E3C7B /* UserInfoServices.swift */; };
+		5AB3D64527D3F790009E3C7B /* UserInfoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D64427D3F790009E3C7B /* UserInfoManager.swift */; };
+		5AB3D64827D49F37009E3C7B /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D64727D49F37009E3C7B /* UserDetails.swift */; };
+		5AB3D64A27D4AAD1009E3C7B /* ErrorGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AB3D64927D4AAD1009E3C7B /* ErrorGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +53,14 @@
 		5AB3D61F27D3EB22009E3C7B /* EasySOAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasySOAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB3D62327D3EB22009E3C7B /* EasySOAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySOAUITests.swift; sourceTree = "<group>"; };
 		5AB3D62527D3EB22009E3C7B /* EasySOAUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySOAUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5AB3D63927D3ED9C009E3C7B /* EnglishVersionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishVersionHandler.swift; sourceTree = "<group>"; };
+		5AB3D63B27D3EDF3009E3C7B /* RussianVersionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RussianVersionHandler.swift; sourceTree = "<group>"; };
+		5AB3D63E27D3EE4F009E3C7B /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		5AB3D64027D3F2BD009E3C7B /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		5AB3D64227D3F6BF009E3C7B /* UserInfoServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoServices.swift; sourceTree = "<group>"; };
+		5AB3D64427D3F790009E3C7B /* UserInfoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoManager.swift; sourceTree = "<group>"; };
+		5AB3D64727D49F37009E3C7B /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		5AB3D64927D4AAD1009E3C7B /* ErrorGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB3D63627D3ECE2009E3C7B /* AGMockServer in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +112,11 @@
 		5AB3D60727D3EB21009E3C7B /* EasySOA */ = {
 			isa = PBXGroup;
 			children = (
+				5AB3D64627D49F2B009E3C7B /* UI */,
+				5AB3D63D27D3EE39009E3C7B /* Data */,
+				5AB3D63727D3ED42009E3C7B /* Network */,
+				5AB3D63327D3EC98009E3C7B /* Services */,
+				5AB3D63227D3EC84009E3C7B /* Managers */,
 				5AB3D60827D3EB21009E3C7B /* EasySOAApp.swift */,
 				5AB3D60A27D3EB21009E3C7B /* ContentView.swift */,
 				5AB3D60C27D3EB22009E3C7B /* Assets.xcassets */,
@@ -127,6 +150,57 @@
 			path = EasySOAUITests;
 			sourceTree = "<group>";
 		};
+		5AB3D63227D3EC84009E3C7B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3D64427D3F790009E3C7B /* UserInfoManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5AB3D63327D3EC98009E3C7B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3D64227D3F6BF009E3C7B /* UserInfoServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		5AB3D63727D3ED42009E3C7B /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3D63827D3ED66009E3C7B /* Handlers */,
+				5AB3D64027D3F2BD009E3C7B /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5AB3D63827D3ED66009E3C7B /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3D63927D3ED9C009E3C7B /* EnglishVersionHandler.swift */,
+				5AB3D63B27D3EDF3009E3C7B /* RussianVersionHandler.swift */,
+				5AB3D64927D4AAD1009E3C7B /* ErrorGenerator.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		5AB3D63D27D3EE39009E3C7B /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3D63E27D3EE4F009E3C7B /* UserInfo.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		5AB3D64627D49F2B009E3C7B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5AB3D64727D49F37009E3C7B /* UserDetails.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +217,9 @@
 			dependencies = (
 			);
 			name = EasySOA;
+			packageProductDependencies = (
+				5AB3D63527D3ECE2009E3C7B /* AGMockServer */,
+			);
 			productName = EasySOA;
 			productReference = 5AB3D60527D3EB21009E3C7B /* EasySOA.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +292,9 @@
 				Base,
 			);
 			mainGroup = 5AB3D5FC27D3EB21009E3C7B;
+			packageReferences = (
+				5AB3D63427D3ECE2009E3C7B /* XCRemoteSwiftPackageReference "AGMockServer" */,
+			);
 			productRefGroup = 5AB3D60627D3EB21009E3C7B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,8 +337,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AB3D64A27D4AAD1009E3C7B /* ErrorGenerator.swift in Sources */,
+				5AB3D63A27D3ED9C009E3C7B /* EnglishVersionHandler.swift in Sources */,
+				5AB3D64327D3F6BF009E3C7B /* UserInfoServices.swift in Sources */,
+				5AB3D64527D3F790009E3C7B /* UserInfoManager.swift in Sources */,
 				5AB3D60B27D3EB21009E3C7B /* ContentView.swift in Sources */,
 				5AB3D60927D3EB21009E3C7B /* EasySOAApp.swift in Sources */,
+				5AB3D63F27D3EE4F009E3C7B /* UserInfo.swift in Sources */,
+				5AB3D63C27D3EDF3009E3C7B /* RussianVersionHandler.swift in Sources */,
+				5AB3D64827D49F37009E3C7B /* UserDetails.swift in Sources */,
+				5AB3D64127D3F2BD009E3C7B /* NetworkService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +673,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5AB3D63427D3ECE2009E3C7B /* XCRemoteSwiftPackageReference "AGMockServer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:AlexeyGolovenkov/AGMockServer.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 0.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5AB3D63527D3ECE2009E3C7B /* AGMockServer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5AB3D63427D3ECE2009E3C7B /* XCRemoteSwiftPackageReference "AGMockServer" */;
+			productName = AGMockServer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5AB3D5FD27D3EB21009E3C7B /* Project object */;
 }

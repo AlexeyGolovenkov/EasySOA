@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct EasySOAApp: App {
+    var model: UserInfoManager = UserInfoManager.shared
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(model)
         }
     }
 }
